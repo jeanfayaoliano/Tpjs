@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    
+   
+}
+body{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#choix{
+    color: blue;
+}
+.tous{
+    height: auto;
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    border: 1px solid blue;
+}
+button{
+    background: #1dee1d;
+    color: #fff;
+    margin: 5px;
+    width: 100px;
+    padding: 5px;
+    border-radius: .5rem;
+}
+
+.container h1{
+    color: blue;
+    letter-spacing: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container textarea{
+    margin-top: 2rem;
+    width: 50%;
+    resize: none;
+    border-radius: 0.3rem;
+    outline: none;
+    height: 100px;
+    font-size: 19px;
+    
+}
+
+.container button:hover{
+    background: #a2a4e7;
+    color: #fff;
+    box-shadow: 0px 0px 10px #a2a4e7;
+}
+.active{
+    color: blue;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+.d-none{
+    display: none;
+}
+.text-center{
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+#pencil,#photo,#photo1,#pc {
+    color: blue;
+    font-size: 45px;
+    cursor: pointer;
+    
+}
+#saisir{
+    display: none;
+    resize: none;
+}
+.tableau{
+    display: flex;
+    min-height: 50px;
+    height: auto;
+    width: 50%;
+    border: 1px solid black;
+}
+
+#resultat{
+    margin-left: 35%;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+   
+}
+#liste input{
+    padding: 5px 10px;
+}
+
+
+
+#menu{
+    display: flex;
+    padding: 20px 10px;
+    position: fixed;
+    transform: translateY(-440px);
+    box-shadow: #000 ;
+    z-index: 1000;
+}
+
+ul li{
+ padding: 8px;
+ list-style: none;
+ text-transform: uppercase;
+ font-weight: 900;
+ background-color: azure;
+}
+ul li a{
+ text-decoration: none;
+}
+ul li a:hover{
+color: #1dee1d;
+}
+.cache ul{
+    display: none;
+   
+}
+#togglemenu{
+    cursor: pointer;
+    position: relative;
+    font-size: 25px;
+}
+
